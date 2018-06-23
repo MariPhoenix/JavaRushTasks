@@ -6,14 +6,14 @@ package com.javarush.task.task03.task0313;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
-
-        System.out.println("МылаРамуМама");
-        System.out.println("МылаМамаРаму");
-        System.out.println("РамуМылаМама");
-        System.out.println("РамуМамаМыла");
-        System.out.println("МамаРамуМыла");
-        System.out.println("МамаМылаРаму");
-
+        String a = "Мама";
+        String b = "Мыла";
+        String c = "Раму";
+        System.out.println(a+b+c);
+        System.out.println(a+c+b);
+        System.out.println(b+a+c);
+        System.out.println(b+c+a);
+        System.out.println(c+a+b);
+        System.out.println(c+b+a);
     }
 }
