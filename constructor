@@ -1,0 +1,36 @@
+public class Lesson20{
+  public static void main(String [] args){
+  	Human human1 = new Human();
+  	//human1.setName("Bob",40);
+    //human1.setAge(40);
+  }
+}
+
+class Human {
+	private String name;
+  	private int age;
+  
+   public Human() {   //constructor vienmer sakas vienmer ar lielo burtu
+     this.name = "defult name";
+     this.age = 0;
+   //System.out.println("Construktors nr1"); // paradas uz ekrana izveidojot jauno objekto no kostruktora)
+     System.out.println(name + age); //(); - dati bez parametriem
+  }
+  
+  public Human(String name) {
+    System.out.println(" Construktorts nr 2"); //"Bob"
+  	this.name = name;
+  }
+  
+  public Human(String name, int age) {
+  System.out.println("Construktors nr 3"); //"Bob",40
+    this.name = name;
+    this.age = age; 
+  }
+  
+  
+  	public void setName(String name){this.name = name; }
+  
+  	public void setAge(int age){this.age = age; }
+
+}
