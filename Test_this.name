@@ -1,0 +1,18 @@
+public class Cat {
+    private String fullName;
+
+    public void setName(String firstName, String lastName) {
+        String fullName = firstName + " " + lastName;
+        //this.fullName = new cat.fullname(); //erro
+        //setName = FullName; //erro
+        //напишите тут ваш код
+      	//Cat cat1 = new Cat();   //1. funciona
+		//cat1.setName("AAA","BBBB"); //2. funciona
+      
+      this.fullName = fullName; //Funciona 
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
